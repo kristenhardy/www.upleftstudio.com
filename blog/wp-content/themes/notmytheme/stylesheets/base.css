@@ -1,0 +1,566 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #fff;
+		font: 16px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "PT Sans";
+		font-weight: normal;}
+			h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-family: 'Amatic SC', sans-serif; font-size: 46px; line-height: 50px; margin-bottom: 14px; text-transform: uppercase;
+	}
+	h2 { font-family: 'Amatic SC'; font-size: 35px; line-height: 40px; margin: 40px 0 10px 0; }
+	h3 { font-family: 'Amatic SC'; font-size: 28px; line-height: 34px; margin-bottom: 16px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 10px 0; font-size: 18px; line-height: 28px; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a { color: #398fd1; text-decoration: none; outline: 0; font-weight: bold; }
+	a:hover, a:focus { text-decoration:underline;}
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	li {
+		font-size: 18px;
+		 line-height: 28px;
+		 margin-left: 60px;
+	}
+	
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+
+/* #Buttons
+================================================== */
+
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+	  -moz-border-radius: 3px;
+	  -webkit-border-radius: 3px;
+	  border-radius: 5px;
+	  color: #fff;
+	  text-transform: uppercase;
+	  Text-weight:bold;
+	  display: inline-block;
+	  font-size: 14px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 12px 20px;
+	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+	.button:hover,
+	button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		color: #fff;
+		background-color:#26426d;
+		text-decoration:none; /* Old browsers */
+		 }
+
+	.button:active,
+	button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active {
+		color: #222;
+		background: #ddd;
+		text-decoration:none;
+		}
+
+	.button.full-width,
+	button.full-width,
+	input[type="submit"].full-width,
+	input[type="reset"].full-width,
+	input[type="button"].full-width {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+	}
+
+	.primary {
+	background-color: #a62924;
+	border: 1px solid #d23c36;
+	color: #fff;
+	}
+	
+	.primary:hover {
+	background-color: red;
+
+	}
+	
+	.secondary {
+		outline: 2px solid white;
+	}
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+	
+/* #My additions
+================================================== */
+
+.bg-image {
+	min-height: 150px;
+	margin-bottom: 20px;
+	max-height: 500px;
+	background-image: url('bg-sketch.png');	
+	}
+
+
+/*floats*/
+.left {
+	float:left;
+	}
+
+
+.right {
+	float:right;
+	}
+
+/*illustration descriptions*/
+
+.tag {
+	display: inline-block;
+	border-radius:3px;
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 5px;
+	
+}
+
+.tag:hover{
+	opacity: 0.7;
+	text-decoration: none;
+	color: #fff;
+	}
+
+.tag:visited{
+	color: #fff;
+	}
+
+
+
+/*homepage*/
+.imagecontainer {
+	position: relative;
+}
+
+.imagecontainer:hover .play{display:block}
+
+.play{
+  position : absolute;
+    display:none;
+    padding: 20px;
+    color: #fff;
+    top:50%; 
+    width: 50%;
+    background-color: #222;
+    margin:0 auto; 
+    left:0px;
+    right:0px;
+    z-index:100;
+    font-size: 18px;
+    border-radius:5px;
+    opacity:.7;
+    cursor: pointer;
+} 
+
+.play > p {
+	margin-top: 5px;
+}
+
+.imagecontainer:hover .play2{display:block}
+
+.play2{
+  position : absolute;
+    display:none;
+    padding: 20px;
+    color: #fff;
+    top:20%; 
+    width: 50%;
+    background-color: #222;
+   margin-left: 50px;
+   margin-top: 20px;
+    left:0px;
+    right:0px;
+    z-index:100;
+    font-size: 13px;
+    border-radius:5px;
+    opacity:.7;
+    cursor: pointer;
+} 
+
+
+/*
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+   	opacity: 0.5;
+    cursor: pointer;
+    }
+      
+   */   
+      .pin {
+      	background: #fff;
+      	border: 10px solid #FAFAFA;
+      	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+      	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+      	opacity: 1;
+      	-webkit-transition: all .2s ease;
+      	-moz-transition: all .2s ease;
+      	-o-transition: all .2s ease;
+      	transition: all .2s ease;
+      	margin-bottom: 20px;
+      }
+      
+      .full {
+      	width: 100%;
+      	background-color: #fff;
+      }
+       
+       .img-circle {
+         border-bottom-left-radius:50%;
+         border-bottom-right-radius:50%;
+         border-top-left-radius:50%;
+         border-top-right-radius:50%;
+         border: 2px solid #fff;
+       }
+       
+         .date {
+         	font-size: 12px;
+         	line-height: 12px;
+         	color: grey;
+         	text-transform: uppercase;
+         	font-weight:700;
+         }
+       
+       .small {
+       	font-size: 12px;
+       	line-height: 12px;
+       	padding-bottom: 20px;
+       }
+       
+       .type {
+       	padding-bottom: 20px;
+       	padding-top: 20px;
+       }
+       
+ /*footer*/
+ 
+ 
+ 
+ footer h4 {
+ 	color: #fff;
+ }
+ footer li {
+ 	list-style: none;
+ 	margin-left: 0;
+ 	padding-top: 10px;
+ 	font-size: 14px;
+ }
+ 
+ footer {
+ 	min-height:400px;
+ 	margin-top: 100px;
+ 	background-color:#222;
+ 	color: #777777;
+ }
+ 
+ footer h4 {
+ 	margin-top: 50px;
+ }
+ 
+ footer p {
+ 	font-size: 14px;
+ }
+      
+ /*typography*/     
+ .caption {
+ font-family: "PT Sans";
+ 	font-size: 24px;
+ 	line-height: 42px;
+ 	color: #222;
+ }
+ 
+ .work-type {
+ 	font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+ 
+ 
+  .work-type a:line {
+  	line-height: 50px;
+  }
+ 
+  
+
+
+  /*COLOURS */
+  .white {
+  	color: #fff;
+  	font-weight: 700;
+  }
+  
+  .purple {
+  	background-color: #533276;
+  }
+  
+  .light-blue {
+  	background-color: #26ade4;
+  }
+  
+  .blue {
+  	background-color: #387dc5;
+  }
+  
+  .pink {
+  	background-color: #ec0778;
+  }
+  
+  .navy {
+  	background-color: #3c629b;
+  }
+  
+  .red {
+  	background-color: #d23c36;
+  }
+  
+  .lime {
+  	background-color: #82dc00;
+  }
+  
+  .orange {
+  	background-color: #ff9632;
+  }
+  
+  .lightblue {
+  	background-color: #2fc2ef;
+  }
+  
+  .background {
+  	background-color: #f2f2f2;
+  }
+    
+  .lightpink {
+  	background-color: #f48cbf;
+  }
+   
+  .darkred {
+  	background-color: #d23c36;
+  }
+   
+   .darkblue {
+   	background-color: #26426d;
+   }
+    
+    #cssmenu {
+    	box-shadow: 0 8px 6px -6px #DEDDDD;
+
+    }
+    
+    .brown {
+    	background-color: #43342a;
+    }
+
+.aboutme {
+	margin-top:140px;
+}
+
+.blog {
+	margin-left: 80px;
+	margin-top: 100px; 
+	padding: 20px;
+}
+
+#logo {
+
+}
+
+
+
+#logo {
+   background-image: url('up-left-logo.png');
+   position: absolute;
+   top: 0;
+   left: 40px;
+   z-index: 1;
+   width: 100px;
+   height: 107px;
+}
+
+#logo:hover {
+   background-image: url('up-left-studio-arrow.png');
+   width: 100px;
+   height: 107px;
+}

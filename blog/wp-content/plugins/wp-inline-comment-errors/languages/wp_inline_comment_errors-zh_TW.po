@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp inline comment errors\n"
+"POT-Creation-Date: 2013-12-17 12:50-0500\n"
+"PO-Revision-Date: 2014-01-08 15:31+0800\n"
+"Last-Translator: \n"
+"Language-Team: AVIarts Ltd. <business@aviarts.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Language: zh_Hant_TW\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../wp_inline_comment_errors.class.php:131
+msgid "Name field: Please include your name."
+msgstr "姓名：請輸入姓名。"
+
+#: ../wp_inline_comment_errors.class.php:132
+msgid "Email field: Please include a valid email."
+msgstr "電子郵件：請輸入有效的電子郵件位址。"
+
+#: ../wp_inline_comment_errors.class.php:133
+msgid "Comment field: Please include a comment."
+msgstr "迴響：請輸入內容。"
+
+#: ../wp_inline_comment_errors.class.php:134
+msgid "Comment field: This is a duplicate comment. Please post a new comment."
+msgstr "迴響：發現重複迴響。請發表新的內容。"
+
+#: ../wp_inline_comment_errors.class.php:542
+#, php-format
+msgid "%1$sPlease correct the following problems:%2$s"
+msgstr "%1$s請修正下列問題：%2$s"
+
+#: ../wp_inline_comment_errors_settings.php:29
+msgid "WP Inline Comment Errors Options"
+msgstr "WP Inline Comment Errors Options"
+
+#: ../wp_inline_comment_errors_settings.php:29
+msgid "WP Inline Comment Errors"
+msgstr "WP Inline Comment Errors"
+
+#: ../wp_inline_comment_errors_settings.php:63
+msgid "You do not have sufficient permissions to access this page."
+msgstr "你沒有足夠的權限存取本頁面。"
+
+#: ../wp_inline_comment_errors_settings.php:68
+msgid "WP Inline Comment Error Settings"
+msgstr "WP Inline Comment Error Settings"
+
+#: ../wp_inline_comment_errors_settings.php:104
+msgid ""
+"WordPress disucssion settings are set to require name and email for the "
+"comment form."
+msgstr "WordPress 的討論設定為發表迴響必須輸入姓名及電子郵件。"
+
+#: ../wp_inline_comment_errors_settings.php:106
+msgid ""
+"WordPress disucssion settings do not require name and email for the comment "
+"form."
+msgstr "WordPress 的討論設定為發表迴響不須輸入姓名及電子郵件。"
+
+#: ../wp_inline_comment_errors_settings.php:109
+msgid "WordPress Configuration"
+msgstr "WordPress Configuration"
+
+#: ../wp_inline_comment_errors_settings.php:126
+msgid ""
+"The installation of PHP on your server is configured to use only cookies for "
+"sessions.  PHP will not support passing session ID in the URL query string "
+"as HTTP GET request. Therefore it is recommended that you create a custom "
+"comment form error template to display comment form errors, in case someone "
+"visits your site with cookies disabled.  Otherwise this plug-in will display "
+"comment form errors using the WordPress default error display."
+msgstr ""
+"你伺服器上所安裝的 PHP 設置為只能使用 cookie 作為 session，不支援傳遞 URL 查"
+"詢字串 (query string) 中的 session ID 作為 HTTP GET 請求，因此建議你創建一個"
+"自定義的迴響錯誤訊息模板以顯示錯誤訊息。否則，用戶端若關閉 cookie 功能的話，"
+"本外掛將只能以 WordPress 預設的顯示方式來顯示錯誤訊息。"
+
+#: ../wp_inline_comment_errors_settings.php:131
+msgid ""
+"The installation of PHP on your server can be reconfigured to support "
+"session ID in the URL query string as HTTP GET request by calling "
+"ini_set(\"session.use_only_cookies\",0)."
+msgstr ""
+"你伺服器上所安裝的 PHP 可透過調用函數 ini_set(\"session.use_only_cookies"
+"\",0) 重新設置為支援 URL 查詢字串 (query string) 中的 session ID 作為 HTTP "
+"GET 請求。"
+
+#: ../wp_inline_comment_errors_settings.php:136
+msgid ""
+"PHP is configured to use either cookies or passing session ID in the URL "
+"query string as HTTP GET request.  You do not need to create a custom "
+"comment form error template."
+msgstr ""
+"PHP 被設置為使用 cookies 或傳遞 URL 查詢字串 (query string) 中的 session ID "
+"作為 HTTP GET 請求。你不需要創建一個自定義的迴響錯誤訊息模板。"
+
+#: ../wp_inline_comment_errors_settings.php:139
+msgid "PHP Session Configuration"
+msgstr "PHP Session Configuration"
+
+#: ../wp_inline_comment_errors_settings.php:166
+msgid "Plug-in Configuration"
+msgstr "Plug-in Configuration"
+
+#: ../wp_inline_comment_errors_settings.php:187
+msgid ""
+"Note that these messages may be overridden by the messages you provide in "
+"your own validation functions."
+msgstr "注意：上述訊息可能被你自己設定的驗證功能訊息所覆蓋。"
+
+#: ../wp_inline_comment_errors_settings.php:190
+msgid "Defined Error Messages"
+msgstr "Defined Error Messages"
+
+#: ../wp_inline_comment_errors_settings.php:203
+msgid "WP Inline Errors Plug-in developed by Hayden Porter,"
+msgstr "WP Inline Errors Plug-in developed by Hayden Porter,"

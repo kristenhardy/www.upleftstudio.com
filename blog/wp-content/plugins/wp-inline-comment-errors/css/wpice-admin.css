@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wpice_config_msg_box{
+	background-color:#eee;
+	margin-bottom:1em;
+	padding:5px;
+}
+
+.wpice-footer{
+	font-size:12px;
+	text-align:center;
+	margin-top:2em;
+	background-color:#FFFFCC;
+	padding:20px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+h3{
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+	margin-bottom:1em !important;
+}
